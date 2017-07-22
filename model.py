@@ -8,6 +8,7 @@
 import nltk
 from nltk.stem.lancaster import LancasterStemmer
 stemmer = LancasterStemmer()
+#nltk.data.path.append('.')
 
 # things we need for Tensorflow
 import numpy as np
